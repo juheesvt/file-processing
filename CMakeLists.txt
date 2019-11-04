@@ -3,4 +3,6 @@ project(file_processing)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(file_processing main.cpp)
+add_executable(file_processing
+        binary-search-tree/bst.hpp
+        binary-search-tree/main.cpp)
